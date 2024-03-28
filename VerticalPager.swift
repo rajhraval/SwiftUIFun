@@ -13,10 +13,9 @@ struct VerticalPager: View {
         GeometryReader { geo in
             ScrollView(.vertical) {
                 VStack(spacing: 0) {
-                    ForEach(0..<colors.count) { color in
+                    ForEach(0..<colors.count, id: \.self) { color in
                         ZStack {
-                            Rectangle()
-                                .fill(colors[color])
+                            colors[color]
                             VStack(alignment: .leading, spacing: 8) {
                                 Text("Affirmation \(color + 1).")
                                     .font(.system(size: 36).bold())
