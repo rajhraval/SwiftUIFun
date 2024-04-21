@@ -1,6 +1,14 @@
-struct ContentView: View {
+//
+//  ContentTransitionExample.swift
+//  SwiftUIFun
+//
+//  Created by Raj Raval on 21/04/24.
+//
 
-    @State private var chapters: [Chapter] = []
+import SwiftUI
+
+struct ContentTransitionExample: View {
+
     @State private var totalSpent = 5000
 
     var emoji: String {
@@ -68,10 +76,9 @@ struct ContentView: View {
         .background(.indigo.gradient)
         .clipShape(.rect(cornerRadius: 36, style: .continuous))
         .fontDesign(.rounded)
-        .padding(.bottom, 256)
     }
 }
 
 #Preview {
-    ContentView()
+    ContentTransitionExample()
 }
