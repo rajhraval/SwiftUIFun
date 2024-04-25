@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF22A5EE2BD5662B00F309E7 /* GeometryEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF22A5ED2BD5662B00F309E7 /* GeometryEffectView.swift */; };
 		CFA23C342BD4EED9007316F7 /* SwiftUIFunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA23C332BD4EED9007316F7 /* SwiftUIFunApp.swift */; };
 		CFA23C362BD4EED9007316F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA23C352BD4EED9007316F7 /* ContentView.swift */; };
 		CFA23C382BD4EEDA007316F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA23C372BD4EEDA007316F7 /* Assets.xcassets */; };
 		CFA23C3B2BD4EEDA007316F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA23C3A2BD4EEDA007316F7 /* Preview Assets.xcassets */; };
 		CFA23C432BD4EEFA007316F7 /* VerticalPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA23C412BD4EEFA007316F7 /* VerticalPager.swift */; };
 		CFA23C442BD4EEFA007316F7 /* ContentTransitionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA23C422BD4EEFA007316F7 /* ContentTransitionExample.swift */; };
+		CFDCAF6C2BD8DBFF00DBCB13 /* PlusJakartaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFDCAF632BD8DBFF00DBCB13 /* PlusJakartaSans-Bold.ttf */; };
+		CFDCAF6D2BD8DBFF00DBCB13 /* PlusJakartaSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFDCAF642BD8DBFF00DBCB13 /* PlusJakartaSans-BoldItalic.ttf */; };
+		CFDCAF6E2BD8DBFF00DBCB13 /* PlusJakartaSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFDCAF652BD8DBFF00DBCB13 /* PlusJakartaSans-ExtraBold.ttf */; };
+		CFDCAF6F2BD8DBFF00DBCB13 /* PlusJakartaSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFDCAF662BD8DBFF00DBCB13 /* PlusJakartaSans-ExtraLight.ttf */; };
+		CFDCAF702BD8DBFF00DBCB13 /* PlusJakartaSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFDCAF672BD8DBFF00DBCB13 /* PlusJakartaSans-Light.ttf */; };
+		CFDCAF712BD8DBFF00DBCB13 /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFDCAF682BD8DBFF00DBCB13 /* PlusJakartaSans-Medium.ttf */; };
+		CFDCAF722BD8DBFF00DBCB13 /* PlusJakartaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFDCAF692BD8DBFF00DBCB13 /* PlusJakartaSans-Regular.ttf */; };
+		CFDCAF732BD8DBFF00DBCB13 /* PlusJakartaSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFDCAF6A2BD8DBFF00DBCB13 /* PlusJakartaSans-SemiBold.ttf */; };
+		CFDCAF752BD8DC6E00DBCB13 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCAF742BD8DC6E00DBCB13 /* UIImage+.swift */; };
+		CFDCAF772BD8DC7600DBCB13 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCAF762BD8DC7600DBCB13 /* String+.swift */; };
+		CFDCAF7A2BD8DCB400DBCB13 /* FontHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCAF792BD8DCB400DBCB13 /* FontHelper.swift */; };
+		CFDCAF7D2BD8DD1900DBCB13 /* Font+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDCAF7C2BD8DD1900DBCB13 /* Font+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF22A5ED2BD5662B00F309E7 /* GeometryEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryEffectView.swift; sourceTree = "<group>"; };
 		CFA23C302BD4EED9007316F7 /* SwiftUIFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA23C332BD4EED9007316F7 /* SwiftUIFunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFunApp.swift; sourceTree = "<group>"; };
 		CFA23C352BD4EED9007316F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +37,19 @@
 		CFA23C3A2BD4EEDA007316F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CFA23C412BD4EEFA007316F7 /* VerticalPager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalPager.swift; sourceTree = "<group>"; };
 		CFA23C422BD4EEFA007316F7 /* ContentTransitionExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentTransitionExample.swift; sourceTree = "<group>"; };
+		CFDCAF622BD8DB5100DBCB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CFDCAF632BD8DBFF00DBCB13 /* PlusJakartaSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Bold.ttf"; sourceTree = "<group>"; };
+		CFDCAF642BD8DBFF00DBCB13 /* PlusJakartaSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CFDCAF652BD8DBFF00DBCB13 /* PlusJakartaSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CFDCAF662BD8DBFF00DBCB13 /* PlusJakartaSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		CFDCAF672BD8DBFF00DBCB13 /* PlusJakartaSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Light.ttf"; sourceTree = "<group>"; };
+		CFDCAF682BD8DBFF00DBCB13 /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Medium.ttf"; sourceTree = "<group>"; };
+		CFDCAF692BD8DBFF00DBCB13 /* PlusJakartaSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Regular.ttf"; sourceTree = "<group>"; };
+		CFDCAF6A2BD8DBFF00DBCB13 /* PlusJakartaSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		CFDCAF742BD8DC6E00DBCB13 /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		CFDCAF762BD8DC7600DBCB13 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		CFDCAF792BD8DCB400DBCB13 /* FontHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontHelper.swift; sourceTree = "<group>"; };
+		CFDCAF7C2BD8DD1900DBCB13 /* Font+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +82,17 @@
 		CFA23C322BD4EED9007316F7 /* SwiftUIFun */ = {
 			isa = PBXGroup;
 			children = (
+				CFDCAF6B2BD8DBFF00DBCB13 /* Fonts */,
+				CFDCAF622BD8DB5100DBCB13 /* Info.plist */,
 				CFA23C332BD4EED9007316F7 /* SwiftUIFunApp.swift */,
 				CFA23C352BD4EED9007316F7 /* ContentView.swift */,
 				CFA23C422BD4EEFA007316F7 /* ContentTransitionExample.swift */,
 				CFA23C412BD4EEFA007316F7 /* VerticalPager.swift */,
+				CF22A5ED2BD5662B00F309E7 /* GeometryEffectView.swift */,
 				CFA23C372BD4EEDA007316F7 /* Assets.xcassets */,
 				CFA23C392BD4EEDA007316F7 /* Preview Content */,
+				CFDCAF782BD8DC7800DBCB13 /* Extensions */,
+				CFDCAF7B2BD8DD0600DBCB13 /* Helpers */,
 			);
 			path = SwiftUIFun;
 			sourceTree = "<group>";
@@ -71,6 +103,39 @@
 				CFA23C3A2BD4EEDA007316F7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFDCAF6B2BD8DBFF00DBCB13 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CFDCAF632BD8DBFF00DBCB13 /* PlusJakartaSans-Bold.ttf */,
+				CFDCAF642BD8DBFF00DBCB13 /* PlusJakartaSans-BoldItalic.ttf */,
+				CFDCAF652BD8DBFF00DBCB13 /* PlusJakartaSans-ExtraBold.ttf */,
+				CFDCAF662BD8DBFF00DBCB13 /* PlusJakartaSans-ExtraLight.ttf */,
+				CFDCAF672BD8DBFF00DBCB13 /* PlusJakartaSans-Light.ttf */,
+				CFDCAF682BD8DBFF00DBCB13 /* PlusJakartaSans-Medium.ttf */,
+				CFDCAF692BD8DBFF00DBCB13 /* PlusJakartaSans-Regular.ttf */,
+				CFDCAF6A2BD8DBFF00DBCB13 /* PlusJakartaSans-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CFDCAF782BD8DC7800DBCB13 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CFDCAF742BD8DC6E00DBCB13 /* UIImage+.swift */,
+				CFDCAF762BD8DC7600DBCB13 /* String+.swift */,
+				CFDCAF7C2BD8DD1900DBCB13 /* Font+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CFDCAF7B2BD8DD0600DBCB13 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CFDCAF792BD8DCB400DBCB13 /* FontHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,7 +196,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFDCAF6C2BD8DBFF00DBCB13 /* PlusJakartaSans-Bold.ttf in Resources */,
+				CFDCAF6E2BD8DBFF00DBCB13 /* PlusJakartaSans-ExtraBold.ttf in Resources */,
+				CFDCAF702BD8DBFF00DBCB13 /* PlusJakartaSans-Light.ttf in Resources */,
+				CFDCAF712BD8DBFF00DBCB13 /* PlusJakartaSans-Medium.ttf in Resources */,
+				CFDCAF6D2BD8DBFF00DBCB13 /* PlusJakartaSans-BoldItalic.ttf in Resources */,
 				CFA23C3B2BD4EEDA007316F7 /* Preview Assets.xcassets in Resources */,
+				CFDCAF6F2BD8DBFF00DBCB13 /* PlusJakartaSans-ExtraLight.ttf in Resources */,
+				CFDCAF732BD8DBFF00DBCB13 /* PlusJakartaSans-SemiBold.ttf in Resources */,
+				CFDCAF722BD8DBFF00DBCB13 /* PlusJakartaSans-Regular.ttf in Resources */,
 				CFA23C382BD4EEDA007316F7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,7 +218,12 @@
 			files = (
 				CFA23C432BD4EEFA007316F7 /* VerticalPager.swift in Sources */,
 				CFA23C362BD4EED9007316F7 /* ContentView.swift in Sources */,
+				CFDCAF7A2BD8DCB400DBCB13 /* FontHelper.swift in Sources */,
+				CFDCAF7D2BD8DD1900DBCB13 /* Font+.swift in Sources */,
 				CFA23C342BD4EED9007316F7 /* SwiftUIFunApp.swift in Sources */,
+				CFDCAF752BD8DC6E00DBCB13 /* UIImage+.swift in Sources */,
+				CF22A5EE2BD5662B00F309E7 /* GeometryEffectView.swift in Sources */,
+				CFDCAF772BD8DC7600DBCB13 /* String+.swift in Sources */,
 				CFA23C442BD4EEFA007316F7 /* ContentTransitionExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +361,7 @@
 				DEVELOPMENT_TEAM = SJ64B32FPH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIFun/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -312,6 +391,7 @@
 				DEVELOPMENT_TEAM = SJ64B32FPH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIFun/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

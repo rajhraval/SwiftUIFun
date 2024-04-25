@@ -17,6 +17,9 @@ struct ContentView: View {
                 NavigationLink("Content Transition Modifier") {
                     ContentTransitionExample()
                 }
+                NavigationLink(".matchedGeometryEffect Modifier") {
+                    GeometryEffectView()
+                }
             }
             .navigationTitle("Examples")
         }
