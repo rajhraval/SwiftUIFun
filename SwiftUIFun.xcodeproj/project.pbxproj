@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CF22A5EE2BD5662B00F309E7 /* GeometryEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF22A5ED2BD5662B00F309E7 /* GeometryEffectView.swift */; };
+		CF95FBE92BDA2292004A71D5 /* CardEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF95FBE82BDA2292004A71D5 /* CardEffect.swift */; };
 		CFA23C342BD4EED9007316F7 /* SwiftUIFunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA23C332BD4EED9007316F7 /* SwiftUIFunApp.swift */; };
 		CFA23C362BD4EED9007316F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA23C352BD4EED9007316F7 /* ContentView.swift */; };
 		CFA23C382BD4EEDA007316F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA23C372BD4EEDA007316F7 /* Assets.xcassets */; };
 		CFA23C3B2BD4EEDA007316F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA23C3A2BD4EEDA007316F7 /* Preview Assets.xcassets */; };
 		CFA23C432BD4EEFA007316F7 /* VerticalPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA23C412BD4EEFA007316F7 /* VerticalPager.swift */; };
 		CFA23C442BD4EEFA007316F7 /* ContentTransitionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA23C422BD4EEFA007316F7 /* ContentTransitionExample.swift */; };
+		CFCEADEE2BDA6E2B008A1973 /* Pow in Frameworks */ = {isa = PBXBuildFile; productRef = CFCEADED2BDA6E2B008A1973 /* Pow */; };
 		CFDCAF6C2BD8DBFF00DBCB13 /* PlusJakartaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFDCAF632BD8DBFF00DBCB13 /* PlusJakartaSans-Bold.ttf */; };
 		CFDCAF6D2BD8DBFF00DBCB13 /* PlusJakartaSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFDCAF642BD8DBFF00DBCB13 /* PlusJakartaSans-BoldItalic.ttf */; };
 		CFDCAF6E2BD8DBFF00DBCB13 /* PlusJakartaSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFDCAF652BD8DBFF00DBCB13 /* PlusJakartaSans-ExtraBold.ttf */; };
@@ -30,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		CF22A5ED2BD5662B00F309E7 /* GeometryEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryEffectView.swift; sourceTree = "<group>"; };
+		CF95FBE82BDA2292004A71D5 /* CardEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEffect.swift; sourceTree = "<group>"; };
 		CFA23C302BD4EED9007316F7 /* SwiftUIFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA23C332BD4EED9007316F7 /* SwiftUIFunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFunApp.swift; sourceTree = "<group>"; };
 		CFA23C352BD4EED9007316F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFCEADEE2BDA6E2B008A1973 /* Pow in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +93,7 @@
 				CFA23C422BD4EEFA007316F7 /* ContentTransitionExample.swift */,
 				CFA23C412BD4EEFA007316F7 /* VerticalPager.swift */,
 				CF22A5ED2BD5662B00F309E7 /* GeometryEffectView.swift */,
+				CF95FBE82BDA2292004A71D5 /* CardEffect.swift */,
 				CFA23C372BD4EEDA007316F7 /* Assets.xcassets */,
 				CFA23C392BD4EEDA007316F7 /* Preview Content */,
 				CFDCAF782BD8DC7800DBCB13 /* Extensions */,
@@ -154,6 +159,9 @@
 			dependencies = (
 			);
 			name = SwiftUIFun;
+			packageProductDependencies = (
+				CFCEADED2BDA6E2B008A1973 /* Pow */,
+			);
 			productName = SwiftUIFun;
 			productReference = CFA23C302BD4EED9007316F7 /* SwiftUIFun.app */;
 			productType = "com.apple.product-type.application";
@@ -182,6 +190,9 @@
 				Base,
 			);
 			mainGroup = CFA23C272BD4EED9007316F7;
+			packageReferences = (
+				CFCEADEC2BDA6E2B008A1973 /* XCRemoteSwiftPackageReference "Pow" */,
+			);
 			productRefGroup = CFA23C312BD4EED9007316F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -222,6 +233,7 @@
 				CFDCAF7D2BD8DD1900DBCB13 /* Font+.swift in Sources */,
 				CFA23C342BD4EED9007316F7 /* SwiftUIFunApp.swift in Sources */,
 				CFDCAF752BD8DC6E00DBCB13 /* UIImage+.swift in Sources */,
+				CF95FBE92BDA2292004A71D5 /* CardEffect.swift in Sources */,
 				CF22A5EE2BD5662B00F309E7 /* GeometryEffectView.swift in Sources */,
 				CFDCAF772BD8DC7600DBCB13 /* String+.swift in Sources */,
 				CFA23C442BD4EEFA007316F7 /* ContentTransitionExample.swift in Sources */,
@@ -432,6 +444,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CFCEADEC2BDA6E2B008A1973 /* XCRemoteSwiftPackageReference "Pow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/EmergeTools/Pow";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CFCEADED2BDA6E2B008A1973 /* Pow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFCEADEC2BDA6E2B008A1973 /* XCRemoteSwiftPackageReference "Pow" */;
+			productName = Pow;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CFA23C282BD4EED9007316F7 /* Project object */;
 }

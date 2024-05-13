@@ -20,6 +20,9 @@ struct ContentView: View {
                 NavigationLink(".matchedGeometryEffect Modifier") {
                     GeometryEffectView()
                 }
+                NavigationLink("Card Pow Effect") {
+                    CardEffect()
+                }
             }
             .navigationTitle("Examples")
         }

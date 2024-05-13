@@ -1,0 +1,15 @@
+{
+  "originHash" : "ad2571106299969bc8c78dbd19c0d3b3e70730d6d17777fc50f70323a5c3d845",
+  "pins" : [
+    {
+      "identity" : "pow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/EmergeTools/Pow",
+      "state" : {
+        "revision" : "cc014eba4b65f689cadc281ad925de5607f2adc9",
+        "version" : "1.0.3"
+      }
+    }
+  ],
+  "version" : 3
+}
